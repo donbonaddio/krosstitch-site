@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krosstitch — photos into cross-stitch charts</title>
+<meta name="description" content="Krosstitch for iPhone and iPad turns a photo or an idea into a counted cross-stitch chart with DMC threads, then lets you highlight your stitches as you go. Support: don@donstech.com.">
+<meta property="og:title" content="Krosstitch — photos into cross-stitch charts">
+<meta property="og:description" content="Turn a photo into a stitchable chart with DMC threads, then mark your progress with Apple Pencil or a finger.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#b0263a">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root { --red: #b0263a; --bg: #f6f1e8; --paper: #fffef9; --ink: #1f1b18; --muted: #6a625b; --line: #ddd5c8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --red: #e8616b; --bg: #1c1b1a; --paper: #2b2a27; --ink: #f1ede8; --muted: #a39b93; --line: #34312d; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 2rem; min-height: 100%;
+  }
+  .icon { width: 120px; height: 120px; border-radius: 27px; box-shadow: 0 18px 50px rgba(0,0,0,0.16), 0 0 0 1px var(--line); margin-bottom: 2.2rem; }
+  h1 { font-size: clamp(3rem, 14vw, 5.5rem); font-weight: 800; letter-spacing: -0.02em; color: var(--red); line-height: 1; }
+  .tagline { margin-top: 1.1rem; font-size: clamp(1.1rem, 4.5vw, 1.45rem); font-weight: 500; color: var(--muted); max-width: 28ch; line-height: 1.4; }
+  .features { margin-top: 2rem; list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; max-width: 34rem; }
+  .features li { padding: 0.45rem 0.95rem; border-radius: 999px; background: var(--paper); box-shadow: 0 0 0 1px var(--line); font-size: 0.95rem; font-weight: 600; }
+  .badge { margin-top: 2rem; display: inline-block; padding: 0.6rem 1.3rem; border: 1.5px solid var(--red); border-radius: 999px; color: var(--red); font-weight: 700; font-size: 0.95rem; letter-spacing: 0.04em; text-transform: uppercase; text-decoration: none; }
+  .private { margin-top: 2rem; max-width: 32ch; font-size: 1.05rem; line-height: 1.5; }
+  .support { margin-top: 2.4rem; max-width: 34ch; font-size: 1rem; color: var(--muted); line-height: 1.5; }
+  .support h2 { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+  .support p { margin-bottom: 0.6rem; }
+  .support a { color: var(--red); text-decoration: none; font-weight: 600; }
+  .support a:hover { text-decoration: underline; }
+  .note { margin-top: 2.4rem; max-width: 40ch; font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+  footer { margin-top: 2rem; font-size: 0.85rem; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--red); }
+</style>
+</head>
+<body>
+  <img class="icon" src="icon.png" alt="">
+  <h1>Krosstitch</h1>
+  <p class="tagline">Turn a photo or an idea into a cross-stitch chart, then mark your stitches as you go.</p>
+  <ul class="features" aria-label="Features">
+    <li>Photo to chart</li>
+    <li>Real DMC threads</li>
+    <li>11 to 28-count fabric</li>
+    <li>Floss amounts</li>
+    <li>Highlight with Apple Pencil</li>
+    <li>Print the chart</li>
+    <li>iCloud sync</li>
+    <li>Share a pattern</li>
+  </ul>
+  <span class="badge">Free · coming soon to iPhone &amp; iPad</span>
+  <p class="private"><strong>Private by design.</strong> Charts are made on your device. No account, no tracking, no ads.</p>
+  <section class="support" id="support">
+    <h2>Support &amp; contact</h2>
+    <p>Questions, a chart that didn&rsquo;t come out right, or an idea? Email <a href="mailto:don@donstech.com?subject=Krosstitch%20support">don@donstech.com</a> &mdash; I read every message.</p>
+    <p><strong>Sharing with someone:</strong> long-press a pattern in your library and choose Share Pattern. They tap the link and get their own copy.</p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </section>
+  <p class="note">DMC is a trademark of DMC Corporation. Krosstitch is not affiliated with or endorsed by DMC. Thread colors are close approximations.</p>
+  <footer>A <a href="https://donstech.com">donstech</a> app</footer>
+</body>
+</html>
